@@ -1,54 +1,44 @@
 
-# DevOps Assignment 2
+## DevOps Implementation
 
-## Personal Portfolio Website
+This project demonstrates the practical implementation of DevOps tools.
 
-This project is created for DevOps for Cloud Computing Lab.
+### Git and GitHub
+Git is used for version control, while GitHub is used to host the project repository.
 
-It is a personal portfolio website built using HTML and CSS.
+### Docker
+Docker is used to containerize the portfolio website using Nginx.
 
-## Student Information
+### GitHub Actions
+GitHub Actions automatically checks the HTML files, builds the Docker image and pushes the latest image to Docker Hub.
 
+### Webhooks
+GitHub Webhooks are used to send repository event information to webhook.site.
+
+## Docker Hub
+Repository: https://hub.docker.com/r/motashim/devops-a2
+
+## Student Details
 - Name: Mohtashim Nawaz Khan
 - Roll Number: 041
 
-## Skills
+## DevOps Assignment Implementation
 
+**Student Name:** Mohtashim Nawaz Khan
+
+**Roll Number:** 041
+
+### Technologies Used
 - HTML and CSS
-- JavaScript
-- Python
-- Machine Learning
 - Git and GitHub
 - Docker
-
-## Technologies Used
-
-- HTML
-- CSS
-- Git
-- GitHub
-- Docker
+- Nginx
 - GitHub Actions
+- Docker Hub
+- GitHub Webhooks
 
-## Project Features
+### Docker Image
+Docker Hub: https://hub.docker.com/r/motashim/devops-a2
 
-- Personal introduction
-- Student roll number
-- Skills section
-- Responsive portfolio design
-- Docker containerization
-- Automated CI/CD pipeline
-
-## How to Run
-
-Open index.html in your web browser.
-
-## Docker
-
-Build image:
-
-docker build -t YOUR_DOCKERHUB_USERNAME/devops-a2:manual .
-
-Run container:
-
-docker run -d -p 8080:80 --name page YOUR_DOCKERHUB_USERNAME/devops-a2:manual
+### CI/CD
+GitHub Actions automatically builds and pushes the Docker image to Docker Hub whenever changes are pushed to the repository.
